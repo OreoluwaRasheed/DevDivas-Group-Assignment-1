@@ -141,8 +141,14 @@ span{
   }
   .downquote{
     right:-3.3rem ;
-    bottom: -1rem;
+    bottom: -2rem;
   }
+
+    .image-container{
+       height: 78vh;
+  
+  } 
+
 
   }
 
