@@ -21,4 +21,4 @@ This is a solution to the [Women Techsters Fellowship Front-end Developers](http
 
 ## Author
 
-- Faith Adewuyi - 
+- Dev Divas 
