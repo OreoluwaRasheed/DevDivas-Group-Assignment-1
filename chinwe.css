@@ -77,13 +77,74 @@ span{
   }
 
   @media screen and (min-width: 400px) {
-    .quoteMarkUpMobile{
-        top: -.4rem;
-        left: -.5rem;
-        width: 12%;
-        
+    .section3{
+      width: 80%;
     }
+    .upquote{
+      top: 2.5rem;
+      left: -2.3rem;
+  }
+  .downquote{
+    right:-1.9rem ;
+  }
 
+  }
+
+
+  
+  @media screen and (min-width: 560px) {
+    .section3{
+      width: 75%;
+    }
+    .upquote{
+      top: 3.5rem;
+      left: -2.7rem;
+  }
+  .downquote{
+    right:-2.9rem ;
+    bottom: .5rem;
+  }
+
+  }
+
+   
+  @media screen and (min-width: 768px) {
+    .section3{
+      width: 70%;
+    }
+    .upquote{
+      top: 4rem;
+      left: -3.9rem;
+  }
+  .downquote{
+    right:-3.3rem ;
+    bottom: .1rem;
+  }
+
+  }
+
+  @media screen and (min-width: 1024px) {
+    .section3{
+      width: 50%;
+      padding-bottom: 0;
+      /* margin-bottom: -20em; */
+    }
+    .section3 h2{
+      font-size: 3rem ;
+    }
+    .section3 p{
+      font: size 3.5rem; 
+    }
+    .upquote{
+      top: 5rem;
+      left: -4.3rem;
+  }
+  .downquote{
+    right:-3.3rem ;
+    bottom: -1rem;
+  }
+
+  }
 
 
 
