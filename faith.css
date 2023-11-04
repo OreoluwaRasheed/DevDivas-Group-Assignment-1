@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+section
+{ border-radius: 5px;
+  height: 96vh;
+  background-color:grey;
+  margin: 0 auto ;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+}
+img
+{  padding:20px;
+  border-radius:5px;
+  width: 65%;
+  height: 500px;
+  justify-content: center;
+}
+h2{
+  font-weight: 800;
+  font-size: 30px;
+ 
+}
+p{
+  color:#fff;
+  text-align: center;
+  font-size:18px;
+  margin-top: 20px;
+  padding:0 25px;
+  
+}
+
