@@ -1,0 +1,16 @@
+.section{
+            width: 1250px;
+            height: 600px;
+            padding: 80px 40px 500px 150px;
+            border: 55px solid rgb(17, 8, 94);
+            margin: 50px;
+        }
+             .a{
+            color: red;
+               }
+                 .blockquote{
+                  font-size: 22px;
+               }
+                    .h1{
+                        font-size: 28px;
+                    }
