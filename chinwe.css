@@ -35,6 +35,9 @@ img{
   border-bottom: 2px solid #eee;
   padding: 2em;
 }
+.name h1{
+  font-size: 1.5rem;
+}
 
 .quote-container{
   display: flex;
@@ -42,5 +45,7 @@ img{
   justify-content: space-between;
   height: 50%;
   padding: 2em;
-  
+}
+.qoute{
+  font-size: 1.5rem;
 }
