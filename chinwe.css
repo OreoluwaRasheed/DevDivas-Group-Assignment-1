@@ -20,6 +20,7 @@ body, html {
 
 .name h1{
   font-size: 2rem;
+  color: #16221E;
 }
 .name p{
   font-size: 1.2rem;
@@ -30,6 +31,64 @@ span{
 
 
 .image-container{
+  width: 80%;
+  height: 50vh;
+  margin: auto;
+}
+.image-container img{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.section3{
+  width: 90%;
+  margin: auto;
+  position: relative;
+  color: #fff;
+  font-size: 1.2rem;
+  padding-bottom: 2em;
+}
+.section3 h2{
+  text-align: center;
+  margin-top: 1.5em;
+}
+.section3 img{
+  width: 25%;
+
+}
+.upquote{
+  position: relative;
+  top: 2rem;
+  left: -1.5rem;
+}
+.downquote{
+  position: absolute;
+    bottom: 1rem;
+    right: -1.2rem;
+    transform: rotate(180deg);
+}
+
+@media screen and (min-width: 375px) {
+  .upquote{
+      left: -2rem;
+  }
+  .downquote{
+    right:-1.4rem ;
+  }
+
+  @media screen and (min-width: 400px) {
+    .quoteMarkUpMobile{
+        top: -.4rem;
+        left: -.5rem;
+        width: 12%;
+        
+    }
+
+
+
+
+
+/* .image-container{
   width: 80%;
   height: 80vh;
   margin: auto;
@@ -65,4 +124,4 @@ span{
     bottom: 1rem;
     right: -3rem;
     transform: rotate(180deg);
-}
+} */
