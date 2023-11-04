@@ -8,7 +8,7 @@
     width:98vw;
     border: 5px solid rgb(253, 206, 119);
     height: 96vh;
-    background-color: rgba(251, 214, 135, 0.846);
+    background-color:#fdcb9a;
     margin: 0 auto ;
     overflow: hidden;
     align-items: center;
@@ -16,4 +16,9 @@
 .box img
 {
     border: 3px solid black;
+    width: 900px;
+}
+
+.image{
+   
 }
