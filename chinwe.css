@@ -4,7 +4,7 @@
   margin: 0;
 }
 body, html {
-  background-color:hsl(201, 11%, 66%) ;
+  background-color:#8CA096 ;
   
 }
 
@@ -41,7 +41,28 @@ span{
 }
 .section3{
   width: 50%;
+  margin: auto;
+  position: relative;
+  color: #fff;
+  font-size: 1.2rem;
+  padding-bottom: 2em;
+}
+.section3 h2{
+  text-align: center;
+  margin-top: 2em;
 }
 .section3 img{
   width: 15%;
+
+}
+.upquote{
+  position: relative;
+  top: 3rem;
+  left: -3rem;
+}
+.downquote{
+  position: absolute;
+    bottom: 1rem;
+    right: -3rem;
+    transform: rotate(180deg);
 }
