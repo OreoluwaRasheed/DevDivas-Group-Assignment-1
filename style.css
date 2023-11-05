@@ -1,0 +1,118 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* This is the stylying of the first section */
+.introduction
+{
+    width:100vw;
+    border: 10px solid #996838;
+    height: 100vh;
+    background-color:#fdcb9a;
+    margin: 0 auto ;
+    /* overflow: hidden; */
+    text-align: center;
+    
+   
+
+    /* align-items: center; */
+}
+.landing-image
+{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 10px;
+    /* box-shadow: 2px 2px 5px 5px #00FF00; */
+}
+.introduction img
+{
+    border: 3px solid black;
+    width: 700px;
+    box-shadow: 2px 5px 5px 5px rgba(70, 8, 8, 0.997);
+    
+    /* flex-direction: column; */
+}
+
+/* This is the styling of the heading */
+h1
+{
+    font-size: 40px;
+}
+/* This is the explore section */
+.explore {
+    padding: 10px 5px;
+    text-align: left;
+    font-size: 20px;
+}
+ a{
+    text-decoration: none;
+    color: rgba(165, 42, 42, 0.997);
+}
+/* paragraph styling */
+p{
+    font-size: 17px;
+    font-weight: 200;
+}
+.explore p{
+    font-size: 18px;
+}
+/* footer styling */
+/* .pagination
+{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #410358);
+} */
+.pagination{
+    display: flex;
+    align-items: center;
+    background: white;
+    color: #383838;
+    padding: 10px 40px;
+    border-radius: 6px;
+
+}
+.pagination .btn1{
+    display: block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #996838;
+    /* position: absolute; */
+    margin: auto;
+    /* left: 0;
+    right: 100px; */
+    /* top: 10px; */    
+    /* bottom: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    place-items: center;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
+/* design of the unordered list */
+ul{
+    margin: 20px 30px;
+}
+ul li{
+    display: inline-block;
+    margin: 0 10px;
+    background: #ccc;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 45px;
+    cursor: pointer;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;  */
+}
