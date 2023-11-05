@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(150, 151, 100);
+    color: white;
+}
+a,h4{
+    color: brown;
+}
+h4{
+    font-size: larger;
+    align-items: center;
+    margin-top: -50px;
+}
+center,h1{
+    position: relative;
+    top: -120px;
+}
+ul,li{
+    color: brown;
+}
+hr{
+    color: black;
+    font-size: larger;
+}
+h3{
+    margin-top: -90px;
+}
