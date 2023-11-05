@@ -1,0 +1,119 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  background-color:hsl(201, 11%, 66%) ;
+  
+}
+section{
+  background-color: aliceblue;
+}
+.about {
+  text-align: center;
+  color: rgb(7, 98, 98);
+  font-weight: bold;
+  font-size: 28px;
+}
+p{
+  letter-spacing: 2px;
+  font: 18px sans-serif;
+  background-color: aliceblue;
+  line-height: 1.6;
+  text-align:center;
+}
+span{
+  color: red
+}
+
+.gallery {
+  box-sizing: border-box;
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+}
+
+.slide {
+  position: relative;
+  width: 100%;
+  display: none;
+  
+  animation: bounceIn 1s ease-in-out forwards;
+}
+@keyframes bounceIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+.slide img {
+  width: 80%;
+  margin-left: 10%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.caption {
+  position: absolute;
+  margin-top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.thumb {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #aaa;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#slide1:checked ~ .gallery #slide_1,
+#slide2:checked ~ .gallery #slide_2,
+#slide3:checked ~ .gallery #slide_3 {
+  display: block;
+}
+
+#slide1:checked ~ .thumbnails .thumb:nth-child(1),
+#slide2:checked ~ .thumbnails .thumb:nth-child(2),
+#slide3:checked ~ .thumbnails .thumb:nth-child(3) {
+  background: #333;
+}
+
+.prev, .next {
+  font-size: 2em;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.prev {
+  left: 0;
+  color:rgb(7, 98, 98);
+}
+
+.next {
+  right: 0;
+  color:rgb(7, 98, 98);
+}
+
