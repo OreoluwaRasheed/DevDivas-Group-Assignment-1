@@ -131,6 +131,7 @@ span{
     }
     .section3 h2{
       font-size: 3rem ;
+      margin-bottom: -1em;
     }
     .section3 p{
       font: size 3.5rem; 
