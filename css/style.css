@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+/* This is the Landing page by Oreoluwa */
 /* This is the stylying of the first section */
 .introduction {
   width: 100vw;
@@ -34,11 +35,8 @@
 .introduction h1 {
   font-size: 40px;
 }
-/* This is the explore section */
-.introduction .explore {
-  padding: 10px 5px;
-  text-align: left;
-  font-size: 20px;
+h4{
+  margin-top: 20px;
 }
 .pagination a {
   text-decoration: none;
@@ -49,21 +47,12 @@
   font-size: 17px;
   font-weight: 200;
 }
-.introduction .explore p {
-  font-size: 18px;
-}
-/* footer styling */
-/* .pagination
-{
-    width:100%;
-    height: 100vh;
-    background: linear-gradient(45deg, #410358);
-} */
+
 .pagination {
   display: flex;
   align-items: center;
   color: #383838;
-  margin-top: 80px;
+  margin-top: 30px;
   padding: 10px 40px;
   border-radius: 6px;
 }
@@ -73,12 +62,7 @@
   width: 40px;
   border-radius: 50%;
   background: #996838;
-  /* position: absolute; */
   margin: auto;
-  /* left: 0;
-    right: 100px; */
-  /* top: 10px; */
-  /* bottom: 50px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,9 +88,7 @@
   font-weight: 500;
   line-height: 35px;
   cursor: pointer;
-  /* display: flex; */
-  /* align-items: center;
-    justify-content: center;  */
+ 
 }
 
 .pagination ul li.active {
@@ -116,7 +98,8 @@
 .pagination ul li.active a {
   color: #fff;
 }
-
+/* Ending styling for Landing Page by Oreoluwa */
+/* Beginning styling for Elizabeth Fajana's Work */
 .elizabeth_fajana h1 {
   background-color: lavender;
   width: 350px;
@@ -137,7 +120,8 @@ body.elizabeth_fajana {
   width: 400px;
   font-size: 50px;
 }
-
+/* Ending styling for Elizabeth Fajana's Work */
+/* Beginning styling for Elizabeth Afolabi's Work */
 body.elizabeth_afolabi {
   color: black;
   font-size: 20px;
@@ -179,7 +163,8 @@ body.elizabeth_afolabi {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
+/* Ending styling for Elizabeth Afolabi's Work */
+/* Beginning styling for Chidinma's Work */
 .chidinma * {
   box-sizing: unset;
 }
@@ -200,7 +185,8 @@ body.elizabeth_afolabi {
 .chidinma .h1 {
   font-size: 28px;
 }
-
+/* Ending styling for Chidinma's Work */
+/* Beginning styling for Ada's Work */
 body.ada {
   background-color: rgb(150, 151, 100);
   color: white;
@@ -231,7 +217,8 @@ body.ada {
   margin-bottom: 20px;
 }
 
-/* chinwe's css */
+/* Ending styling for Ada's Work */
+/* Beginning styling for Chinwe's Work */
 body.chinwe {
   background-color: #8ca096;
 }
@@ -369,139 +356,58 @@ body.chinwe {
     height: 78vh;
   }
 }
-
+/* Ending styling for Chinwe's Work */
+/* Beginning styling for Dorcas' Work */
 body.dorcas {
-  margin: 0;
-  height: 100%;
-  background-color: hsl(201, 11%, 66%);
+  background-color: wheat;
 }
 
-.dorcas section {
-  margin: 20px 0px;
-  background-color: aliceblue;
-}
-.dorcas .about {
-  text-align: center;
-  color: rgb(7, 98, 98);
-  font-weight: bold;
-  font-size: 28px;
-  margin-bottom: 20px;
-}
-.dorcas p {
-  letter-spacing: 2px;
-  font: 18px sans-serif;
-  background-color: aliceblue;
-  line-height: 1.6;
-  margin-bottom: 20px;
-  text-align: center;
-}
-.dorcas span {
-  color: red;
-}
-
-.dorcas .gallery {
-  box-sizing: border-box;
+.dorcas .flex-container {
   display: flex;
-  transition: transform 0.5s ease;
-  height: 100%;
+  flex-direction: column;
+  justify-content: center; /* This will vertically center your items in the container */
+  align-items: center; /* This will horizontally center your items */
+  background-color: white;
+  padding: 20px; /* Add some padding around */
+  box-sizing: content-box;
 }
 
-.dorcas .slide {
+/* If you need to style individual quotes further: */
+.dorcas .flex-container > div {
+  color: black; /* Sets the text color */
+  margin: 10px 0; /* Adds some space between the quotes */
+  padding: 10px; /* Adds some padding inside each quote box */
+  width: 50%; /* Adjust the width as per your requirement */
+  height: 100vh;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Optional: Adds a slight shadow for a "card" effect */
+  border-radius: 4px; /* Optional: Rounds the corners of the quote boxes */
+}
+
+/* If you need to style individual quotes further: */
+.dorcas .flex-container > div > p {
   position: relative;
-  width: 100%;
-  display: none;
-
-  animation: bounceIn 1s ease-in-out forwards;
-}
-@keyframes bounceIn {
-  from {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-.dorcas .slide img {
-  width: 80%;
-  margin-left: 10%;
-  object-fit: contain;
-  border-radius: 4px;
-}
-
-.dorcas .caption {
-  position: absolute;
-  margin-top: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: chocolate;
   text-align: center;
+  font-size: 30px;
+  width: 80%; /* Adjust the width as per your requirement */
 }
 
-.dorcas .caption h2 {
-  margin: 20px 0px;
+.dorcas #one {
+  background-image: url("/images/dorcas.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-
-.dorcas .thumbnails {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-.dorcas .thumb {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #aaa;
-  margin: 0 5px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.dorcas input[type="radio"] {
-  display: none;
-}
-
-.dorcas #slide1:checked ~ .gallery #slide_1,
-.dorcas #slide2:checked ~ .gallery #slide_2,
-.dorcas #slide3:checked ~ .gallery #slide_3 {
-  display: block;
-}
-
-.dorcas #slide1:checked ~ .thumbnails .thumb:nth-child(1),
-.dorcas #slide2:checked ~ .thumbnails .thumb:nth-child(2),
-.dorcas #slide3:checked ~ .thumbnails .thumb:nth-child(3) {
-  background: #333;
-}
-
-.dorcas .prev,
-.dorcas .next {
-  font-size: 2em;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #fff;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-
-.dorcas .prev {
-  left: 0;
-  color: rgb(7, 98, 98);
-}
-
-.dorcas .next {
-  right: 0;
-  color: rgb(7, 98, 98);
-}
-
-.dorcas .pagination {
-  margin-top: 200px;
-}
+/* Ending styling for Dorcas' Work */
+/* Beginning styling for Oreoluwa's Work */
 
 .ore .box {
   width: 100vw;
+  /* height: 90vh; */
   padding: 20px;
   border: 5px solid rgb(253, 206, 119);
   background-color: rgba(251, 214, 135, 0.846);
@@ -510,16 +416,15 @@ body.dorcas {
   align-items: center;
   text-align: center;
 }
+
 .ore .main-image {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   padding: 10px;
 }
 .ore .box img {
   border: 3px solid black;
-
-  width: 450px;
+  width: 400px;
   box-shadow: 2px 5px 5px 5px rgba(70, 8, 8, 0.997);
 }
 .ore h1 {
@@ -539,7 +444,8 @@ body.dorcas {
 .ore .pagination {
   margin-top: 10px;
 }
-
+/* Ending styling for Oreoluwa's Work */
+/* Beginning styling for Glory's Work */
 .glory h1 {
   font-size: large;
   font-size: 30px;
@@ -561,6 +467,8 @@ body.dorcas {
   border: 50px solid crimson;
   margin: 30px;
 }
+/* Ending styling for Glory's Work */
+/* Beginning styling for Faith's Work */
 
 .faith .section {
   border-radius: 5px;
@@ -594,7 +502,8 @@ body.dorcas {
   color: brown;
   font-size: 35px;
 }
-
+/* Ending styling for Faith's Work */
+/* Beginning styling for Barira Work */
 body.barira {
   padding: 0;
   margin: 0;
