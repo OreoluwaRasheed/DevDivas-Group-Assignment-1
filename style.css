@@ -3,22 +3,46 @@
     padding: 0;
     margin: 0;
 }
+
 .box
 {
     width:98vw;
     border: 5px solid rgb(253, 206, 119);
     height: 96vh;
-    background-color:#fdcb9a;
+    background-color: rgba(251, 214, 135, 0.846);
     margin: 0 auto ;
     overflow: hidden;
     align-items: center;
+    text-align: center;
+}
+.main-image
+{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 10px;
+    
 }
 .box img
 {
     border: 3px solid black;
-    width: 900px;
-}
-
-.image{
    
+    width: 450px;
+    box-shadow: 2px 5px 5px 5px rgba(70, 8, 8, 0.997);
+}
+h1
+{
+    font-size: 50px;
+}
+/* This is the text section */
+span{
+
+    
+    font-size: 30px;
+    font-weight: 300;
+}
+/* paragraph styling  */
+p{
+    font-size: 20px;
+    font-weight: 200;
 }
